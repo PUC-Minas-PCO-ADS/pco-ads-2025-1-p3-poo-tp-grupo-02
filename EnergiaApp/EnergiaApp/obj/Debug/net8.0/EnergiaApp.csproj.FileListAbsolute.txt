@@ -1,0 +1,14 @@
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\bin\Debug\net8.0\EnergiaApp.exe
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\bin\Debug\net8.0\EnergiaApp.deps.json
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\bin\Debug\net8.0\EnergiaApp.runtimeconfig.json
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\bin\Debug\net8.0\EnergiaApp.dll
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\bin\Debug\net8.0\EnergiaApp.pdb
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\obj\Debug\net8.0\EnergiaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\obj\Debug\net8.0\EnergiaApp.AssemblyInfoInputs.cache
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\obj\Debug\net8.0\EnergiaApp.AssemblyInfo.cs
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\obj\Debug\net8.0\EnergiaApp.csproj.CoreCompileInputs.cache
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\obj\Debug\net8.0\EnergiaApp.dll
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\obj\Debug\net8.0\refint\EnergiaApp.dll
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\obj\Debug\net8.0\EnergiaApp.pdb
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\obj\Debug\net8.0\EnergiaApp.genruntimeconfig.cache
+C:\Users\yalle\Downloads\POO - Final\EnergiaApp\EnergiaApp\EnergiaApp\obj\Debug\net8.0\ref\EnergiaApp.dll

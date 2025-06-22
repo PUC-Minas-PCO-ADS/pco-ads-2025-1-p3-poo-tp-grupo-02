@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wu561wCmO2Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yalle\\Downloads\\POO - Final\\EnergiaApp\\EnergiaApp\\EnergiaApp\\EnergiaApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yalle\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
