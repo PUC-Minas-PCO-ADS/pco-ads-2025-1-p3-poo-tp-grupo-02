@@ -1,13 +1,13 @@
-classe Conta.cs:
+using Newtonsoft.Json;
 using System.IO.Pipelines;
 
+[JsonObject]
 public abstract class Conta
 {
     public string NumInstalacao { get; set; }
     public double LeituraAnterior { get; set; }
     public double LeituraAtual { get; set; }
 
-    public double Consumo => LeituraAtual - LeituraAnterior;
     public const double ContribuicaoIluminacao = 9.25;
 
     protected abstract double Tarifa { get; }
@@ -15,7 +15,8 @@ public abstract class Conta
 
     public double CalcularValorSemImposto()
     {
-        return Consumo * Tarifa + ContribuicaoIluminacao;
+        double consumo = LeituraAtual - LeituraAnterior;
+        return consumo * Tarifa + ContribuicaoIluminacao;
     }
 
     public double CalcularValorTotal()
@@ -25,12 +26,14 @@ public abstract class Conta
     }
 }
 
+[JsonObject]
 public class ContaResidencial : Conta
 {
     protected override double Tarifa => 0.40;
     protected override double Imposto => 0.30;
 }
 
+[JsonObject]
 public class ContaComercial : Conta
 {
     protected override double Tarifa => 0.35;
