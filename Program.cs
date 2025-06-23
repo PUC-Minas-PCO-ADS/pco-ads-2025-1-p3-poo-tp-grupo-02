@@ -1,4 +1,5 @@
-﻿using System;
+classe Program.cs:
+using System;
 using System.Collections.Generic;
 using pco_ads_2025_1_p3_poo_tp_grupo_02;
 
@@ -76,13 +77,18 @@ namespace pco_ads_2025_1_p3_poo_tp_grupo_02
                 Console.Write("Tipo da Conta (Residencial / Comercial): ");
                 string tipoConta = Console.ReadLine();
 
+                Console.Write("Número de instalação: ");
+                string numDaInstalacao = Console.ReadLine();
+
                 Console.Write("Leitura Anterior (kWh): ");
                 double leituraAnt = double.Parse(Console.ReadLine());
 
                 Console.Write("Leitura Atual (kWh): ");
                 double leituraAtual = double.Parse(Console.ReadLine());
 
+
                 Conta conta = ContaFactory.CriarConta(tipoConta);
+                conta.NumInstalacao = numDaInstalacao;
                 conta.LeituraAnterior = leituraAnt;
                 conta.LeituraAtual = leituraAtual;
 
@@ -110,11 +116,11 @@ namespace pco_ads_2025_1_p3_poo_tp_grupo_02
         static void Consultar()
         {
             Console.Write("\nInforme o CPF ou CNPJ para consulta: ");
-            string id = Console.ReadLine();
+            string idVerificacao = Console.ReadLine();
 
             foreach (var pessoa in pessoas)
             {
-                if (pessoa.ID == id)
+                if (pessoa.ID == idVerificacao)
                 {
                     Console.WriteLine($"\n--- Dados do Consumidor ---");
                     Console.WriteLine($"Nome: {pessoa.Nome}");
@@ -122,9 +128,9 @@ namespace pco_ads_2025_1_p3_poo_tp_grupo_02
                     foreach (var conta in pessoa.Contas)
                     {
                         Console.WriteLine($"- Tipo: {conta.GetType().Name}");
-                        Console.WriteLine($"  Consumo: {conta.Consumo} kWh");
-                        Console.WriteLine($"  Valor sem Imposto: R$ {conta.CalcularValorSemImposto():F2}");
-                        Console.WriteLine($"  Valor Total com Imposto: R$ {conta.CalcularValorTotal():F2}");
+                        Console.WriteLine($"- Consumo no mês passado: {conta.LeituraAnterior} kW/h");
+                        Console.WriteLine($"- Valor sem Imposto da Conta Atual: R$ {conta.CalcularValorSemImposto():F2}");
+                        Console.WriteLine($"- Valor Total com Imposto da Conta Atual: R$ {conta.CalcularValorTotal():F2}");
                     }
                     return;
                 }
