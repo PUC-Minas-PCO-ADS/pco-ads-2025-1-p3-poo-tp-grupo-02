@@ -1,4 +1,3 @@
-classe Program.cs:
 using System;
 using System.Collections.Generic;
 using pco_ads_2025_1_p3_poo_tp_grupo_02;
@@ -7,8 +6,13 @@ namespace pco_ads_2025_1_p3_poo_tp_grupo_02
 {
     class Program
     {
-        // Corrigido: caminho usando @ para evitar erro de escape
-        static List<Pessoa> pessoas = ArquivoHelper.CarregarDados(@"D:\workspace\poo\dados.json");
+        static string caminhoJson = Path.Combine(
+            Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+            "Downloads",
+            "dados.json"
+        );
+
+        static List<Pessoa> pessoas = ArquivoHelper.CarregarDados(caminhoJson);
 
         static void Main(string[] args)
         {
@@ -95,7 +99,7 @@ namespace pco_ads_2025_1_p3_poo_tp_grupo_02
                 consumidor.AdicionarConta(conta);
                 pessoas.Add(consumidor);
 
-                ArquivoHelper.SalvarDados(pessoas, @"D:\workspace\poo\dados.json");
+                ArquivoHelper.SalvarDados(pessoas, caminhoJson);
 
                 Console.WriteLine("Conta cadastrada e salva com sucesso!");
             }
@@ -127,6 +131,8 @@ namespace pco_ads_2025_1_p3_poo_tp_grupo_02
 
                     foreach (var conta in pessoa.Contas)
                     {
+                        Console.WriteLine($"\n--- Dados do Consumidor ---");
+                        Console.WriteLine($"Nome: {pessoa.Nome}");
                         Console.WriteLine($"- Tipo: {conta.GetType().Name}");
                         Console.WriteLine($"- Consumo no mês passado: {conta.LeituraAnterior} kW/h");
                         Console.WriteLine($"- Valor sem Imposto da Conta Atual: R$ {conta.CalcularValorSemImposto():F2}");
