@@ -58,6 +58,7 @@ namespace pco_ads_2025_1_p3_poo_tp_grupo_02
         {
             try
             {
+
                 Console.Write("\nNome do Consumidor: ");
                 string nome = Console.ReadLine();
 
@@ -90,11 +91,27 @@ namespace pco_ads_2025_1_p3_poo_tp_grupo_02
                 Console.Write("Leitura Atual (kWh): ");
                 double leituraAtual = double.Parse(Console.ReadLine());
 
+                Pessoa consumidorExistente = pessoas.FirstOrDefault(p => p.ID == id);
+
+                if (consumidorExistente != null)
+                {
+                    bool instalacaoJaExiste = consumidorExistente.Contas.Any(c => c.NumInstalacao == numDaInstalacao);
+                    if (instalacaoJaExiste)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.WriteLine("\nEste número de instalação já está cadastrado para este cliente! Por favor tente novamente.");
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                        return;
+                    }
+                }
+
 
                 Conta conta = ContaFactory.CriarConta(tipoConta);
                 conta.NumInstalacao = numDaInstalacao;
                 conta.LeituraAnterior = leituraAnt;
                 conta.LeituraAtual = leituraAtual;
+
+
 
                 consumidor.AdicionarConta(conta);
                 pessoas.Add(consumidor);

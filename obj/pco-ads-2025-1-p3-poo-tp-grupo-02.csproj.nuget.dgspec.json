@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\Testando\\pco-ads-2025-1-p3-poo-tp-grupo-02\\pco-ads-2025-1-p3-poo-tp-grupo-02.csproj": {}
+    "D:\\AppEnergia\\pco-ads-2025-1-p3-poo-tp-grupo-02\\pco-ads-2025-1-p3-poo-tp-grupo-02.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\Testando\\pco-ads-2025-1-p3-poo-tp-grupo-02\\pco-ads-2025-1-p3-poo-tp-grupo-02.csproj": {
+    "D:\\AppEnergia\\pco-ads-2025-1-p3-poo-tp-grupo-02\\pco-ads-2025-1-p3-poo-tp-grupo-02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\Testando\\pco-ads-2025-1-p3-poo-tp-grupo-02\\pco-ads-2025-1-p3-poo-tp-grupo-02.csproj",
+        "projectUniqueName": "D:\\AppEnergia\\pco-ads-2025-1-p3-poo-tp-grupo-02\\pco-ads-2025-1-p3-poo-tp-grupo-02.csproj",
         "projectName": "pco-ads-2025-1-p3-poo-tp-grupo-02",
-        "projectPath": "D:\\Workspace\\Testando\\pco-ads-2025-1-p3-poo-tp-grupo-02\\pco-ads-2025-1-p3-poo-tp-grupo-02.csproj",
+        "projectPath": "D:\\AppEnergia\\pco-ads-2025-1-p3-poo-tp-grupo-02\\pco-ads-2025-1-p3-poo-tp-grupo-02.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\Testando\\pco-ads-2025-1-p3-poo-tp-grupo-02\\obj\\",
+        "outputPath": "D:\\AppEnergia\\pco-ads-2025-1-p3-poo-tp-grupo-02\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

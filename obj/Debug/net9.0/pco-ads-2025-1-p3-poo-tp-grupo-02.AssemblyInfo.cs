@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pco-ads-2025-1-p3-poo-tp-grupo-02")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c64e308902f3ee943ac16d3fa80eae4be20f47c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3932895d1ff10bd577016a20f342e7607574e6d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("pco-ads-2025-1-p3-poo-tp-grupo-02")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pco-ads-2025-1-p3-poo-tp-grupo-02")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
