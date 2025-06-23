@@ -1,3 +1,6 @@
+classe Conta.cs:
+using System.IO.Pipelines;
+
 public abstract class Conta
 {
     public string NumInstalacao { get; set; }
@@ -17,7 +20,8 @@ public abstract class Conta
 
     public double CalcularValorTotal()
     {
-        return CalcularValorSemImposto() * (1 + Imposto);
+        double valorImposto = CalcularValorSemImposto() * Imposto;
+        return CalcularValorSemImposto() + valorImposto;
     }
 }
 
