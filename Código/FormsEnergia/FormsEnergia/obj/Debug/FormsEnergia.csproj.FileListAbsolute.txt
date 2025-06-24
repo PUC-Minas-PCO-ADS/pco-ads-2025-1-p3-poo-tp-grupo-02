@@ -1,0 +1,13 @@
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\bin\Debug\FormsEnergia.exe.config
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\bin\Debug\FormsEnergia.exe
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\bin\Debug\FormsEnergia.pdb
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\bin\Debug\Newtonsoft.Json.dll
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\bin\Debug\Newtonsoft.Json.xml
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\obj\Debug\FormsEnergia.csproj.AssemblyReference.cache
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\obj\Debug\FormsEnergia.Form1.resources
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\obj\Debug\FormsEnergia.Properties.Resources.resources
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\obj\Debug\FormsEnergia.csproj.GenerateResource.cache
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\obj\Debug\FormsEnergia.csproj.CoreCompileInputs.cache
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\obj\Debug\FormsEne.4A9707AA.Up2Date
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\obj\Debug\FormsEnergia.exe
+D:\FormsContaEnergia\FormsEnergia\FormsEnergia\obj\Debug\FormsEnergia.pdb
